@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 .App {
-  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: "Quicksand";
 }
 
 .App-logo {
@@ -35,4 +40,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{ 
+  margin-top: 7%; 
+  text-align: center; 
+  justify-content: center;
+}
+
+.container swiper{
+  height: 100%;
+}
+
+.container img{
+  width: 60%;
+  padding: 10px;
+  height: 300px;
+  margin-left: 19%;
+}
+.card{
+  transition: 1s;
+  padding: 30px
+}
+
+.card:hover{
+  transform: scale(0.9);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
